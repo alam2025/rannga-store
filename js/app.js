@@ -89,7 +89,7 @@ const setInnerText = (id, value) => {
    document.getElementById(id).innerText = value;
 };
 
-// update delivery charge and total Tax
+
 const updateTaxAndCharge = () => {
    const priceConverted = getInputValue('price');
    if (priceConverted > 200) {
